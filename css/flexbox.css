@@ -71,6 +71,7 @@
 
 .videoSobre-sobre{
   flex-grow: 1;  
+  flex-shrink: 2;
 }
 
 /* Parte Mobile */
@@ -125,5 +126,14 @@
     
     .cabecalhoPrincipal-nav-link-app{
         order: -1;
+    }
+
+    .videoSobre .container {
+        flex-direction: column;
+
+    }
+
+    .videoSobre-video {
+        margin: 0 auto;
     }
 }

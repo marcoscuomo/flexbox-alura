@@ -103,4 +103,8 @@
     .conteudoPrincipal-cursos-link:nth-child(4n+1){
         margin-left: auto;
     }
+    
+    .cabecalhoPrincipal-nav-link-app{
+        order: -1;
+    }
 }
